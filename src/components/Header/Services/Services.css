@@ -1,0 +1,51 @@
+.service{
+
+width: 90%;
+height: auto;
+position: relative;
+float: left;
+padding-right: 5%;
+padding-left: 5%;
+margin-top: 5px;
+margin-bottom: 5px;
+background-color: #bf0001;
+color: #fff;
+}
+
+#box{
+display: block;
+  width: 44%;
+  height: auto;
+  position: relative;
+  float: left;
+  padding: 3%;
+  
+}
+
+
+
+
+#box img{
+  float: left;
+  padding: 10px;
+  width: 100px;
+  height:100px;
+  border: 1px solid #c7c7c7;
+  margin-right: 10px;
+}
+
+h2{
+  display: block;
+  font-size: 2rem;
+
+}
+
+#box p{
+display: flex;
+font-size:medium;
+background-color: transparent;
+color: white;
+font-weight: 400;
+}
+
+

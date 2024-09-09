@@ -1,0 +1,40 @@
+/* Container for images */
+.img-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  margin: 40px;
+  height: auto; 
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+
+.leftimg img {
+  max-width: 683px; 
+  height: auto;
+
+}
+
+
+.rightimg img {
+  max-width: 365px; 
+  height: auto;
+} 
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .img-head {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .leftimg img,
+  .rightimg img {
+    max-width: 100%; 
+    height: auto; 
+  }
+}

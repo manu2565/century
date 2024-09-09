@@ -1,0 +1,51 @@
+.contact{
+  width: 90%;
+
+  height: auto;
+  position: relative;
+  float: left;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: #F4F4F4;
+ 
+}
+
+.contact #left{
+  width: 70%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+.contact #left h1{
+  line-height: 34px;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contact #left h2{
+display: flex;
+color: #494949;
+justify-content: start;
+align-items: center;
+margin-top:14px;
+}
+
+.contact #left p {
+  display: block;
+
+}
+
+
+.content #right {
+  width: 30%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-top: 120px;
+}
+
+.content #right img{
+  width:100%;
+}
